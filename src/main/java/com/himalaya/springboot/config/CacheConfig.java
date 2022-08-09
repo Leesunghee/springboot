@@ -23,5 +23,6 @@ public class CacheConfig {
                 .entryTtl(Duration.ofSeconds(10))
                 .serializeValuesWith(SerializationPair.fromSerializer(new GenericJackson2JsonRedisSerializer()));
     }
-
 }
+
+
